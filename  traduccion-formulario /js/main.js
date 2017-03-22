@@ -17,11 +17,8 @@ function mostrar(){
 	var imail= document.getElementById ("inputEmail").value;
 	var password= document.getElementById("inputPassword").value;
 
-	var datosUsuario= document.getElementById("datos");
-	var resultado = document.getElementById("resultados");
-
-	resultado.innerHTML= "Tus datos son: <br>";
-	datosUsuario.innerHTML="El correo que ingresaste es: <br>" + imail + 
-	"La clave ingresada es: <br>" + password;
+	document.getElementById("datos").innerHTML = "Tus datos son: <br>";
+	document.getElementById("resultados").innerHTML= "El correo que ingresaste es: <br>" + imail +
+	"<br>La clave ingresada es: <br>" + password;
 }
  
